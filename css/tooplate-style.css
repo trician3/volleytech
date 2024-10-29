@@ -135,6 +135,13 @@ p:last-child {
     margin: 0 auto;
 }
 
+.pass-video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
 .tm-banner-section video {
   width: 100%;
     height: auto;
