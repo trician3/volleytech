@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>VolleyTech Dashboard</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/tooplate-style.css" />
+  </head>
+
+  <body>
+    <!-- Page Header -->
+    <div class="container" id="home">
+      <div class="col-12 text-center">
+        <div class="tm-page-header">
+          <h1 class="d-inline-block text-uppercase">VolleyTech Dashboard</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="tm-nav-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-md navbar-light">
+              <div class="collapse navbar-collapse" id="tmMainNav">
+                <ul class="navbar-nav mx-auto tm-navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#processed-video">Processed Video</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#feedback">Feedback</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Processed Video Section -->
+    <section class="tm-banner-section" id="processed-video">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <header>
+              <h2 class="tm-banner-title">Processed Video</h2>
+            </header>
+            <video id="processed-vid" controls>
+              <source src="https://<your_storage_account_name>.blob.core.windows.net/processed-outputs/output_video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section class="container tm-features-section" id="feedback">
+      <div class="row">
+        <div class="col-12">
+          <header>
+            <h2 class="tm-banner-title">Feedback</h2>
+          </header>
+          <iframe src="https://<your_storage_account_name>.blob.core.windows.net/processed-outputs/feedback.txt" width="100%" height="200px"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
