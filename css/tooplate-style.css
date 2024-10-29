@@ -155,7 +155,7 @@ p:last-child {
 }
 
 .tm-banner-text-container {
-  position: relative;
+  position: absolute;
   z-index: 1000;
   color: white;
   text-align: center;
