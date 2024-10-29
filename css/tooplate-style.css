@@ -127,6 +127,14 @@ p:last-child {
   margin-top: 74px;
 }
 
+.processed-video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
 .tm-banner-section video {
   position: absolute;
   left: 50%;
