@@ -124,7 +124,7 @@ p:last-child {
   align-items: center;
   position: relative;
   overflow: hidden;
-  margin-top: 74px;
+  margin-top: 100px;
 }
 
 .processed-video {
@@ -136,7 +136,7 @@ p:last-child {
 }
 
 .tm-banner-section video {
-  position: absolute;
+  position: auto;
   left: 50%;
   top: 60%;
   transform: translate(-50%, -60%);
